@@ -1,0 +1,134 @@
+html{
+    font-size: 22px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+.nav-header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+    background-color: black;
+    border-bottom: 1px solid seashell;
+    height: 69px;
+    display: flex;
+    align-items: center;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    padding: 0 10px;
+}
+.menu-nav li{
+    margin-left: 20px;
+    display: inline-block;
+}
+
+.menu-nav a{
+    color: seashell;
+    text-decoration: underline;
+}
+
+.logo img{
+    height: 50px;
+    padding: 10px;
+}
+
+.main{
+    max-height: 700px;
+    width: 1200px;
+    background-image: url(/images/Background.png);
+    background-size: cover;
+    height: 700px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Our{
+    background-color: black;
+    width: 100%;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 1000px;
+    margin: 55px auto;
+}
+
+.saurce{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.item-saurce{
+    max-height: 200px;
+    max-width: 300px;
+    margin: 40px 30px 40px 0;
+}
+
+.item-saurce img{
+    width: 100%;
+    height: 100%;
+}
+
+h2, h4{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.locations{
+    max-height: 500px;
+    max-width: 1200px;
+    background-image: url(/images/Location.png);
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.black-cubes{
+    display: flex;
+    margin-top: 15px;
+}
+
+.information{
+    border: 1px solid;
+    margin-left: 40px;
+    width: 300px;
+    max-width: 300px;
+    background-color: black;
+    opacity: 1;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.copy{
+    display: flex;
+    justify-content: flex-startd;
+}
